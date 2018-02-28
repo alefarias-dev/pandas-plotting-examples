@@ -434,25 +434,6 @@ scatter_matrix(ds, diagonal='kde')
 
 ![png](output_38_1.png)
 
-
-
-```python
-ds.plot.hexbin()
-```
-
-
-    ---------------------------------------------------------------------------
-
-    TypeError                                 Traceback (most recent call last)
-
-    <ipython-input-155-00c382a7dd8d> in <module>()
-    ----> 1 ds.plot.hexbin()
-    
-
-    TypeError: hexbin() missing 2 required positional arguments: 'x' and 'y'
-
-
-
 ```python
 ds.plot.hexbin(x='A',y='B', gridsize=25, colormap='inferno')
 ```
@@ -467,13 +448,3 @@ ds.plot.hexbin(x='A',y='B', gridsize=25, colormap='inferno')
 
 ![png](output_40_1.png)
 
-
-
-```python
-import statsmodels.formula.api as sm
-```
-
-
-```python
-
-```
